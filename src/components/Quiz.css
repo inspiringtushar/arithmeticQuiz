@@ -1,0 +1,57 @@
+* {
+  margin: 0px 10px;
+}
+.mainDiv {
+  background-color: aqua;
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.centerDiv {
+  border: 3px dashed black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Quiz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.resultScreen {
+  background-color: red;
+}
+.scoreLabel {
+  background-color: rgba(12, 20, 6, 0.651);
+  color: aliceblue;
+  position: relative;
+  left: 80%;
+  top: 50%;
+}
+#value1,
+#value2,
+#result {
+  text-align: center;
+  width: 60px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  height: 25px;
+}
+#nextButton {
+  width: 150px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: darkseagreen;
+}
+#startButton {
+  width: 200px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: cornflowerblue;
+  box-shadow: darkcyan;
+}
